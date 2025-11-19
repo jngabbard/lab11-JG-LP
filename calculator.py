@@ -11,7 +11,7 @@ One function per operation, in order.
 """
 
 def div(a, b):
-    if a == 0:
+    if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
 
@@ -46,5 +46,3 @@ def log(a, b):
         raise ValueError("Error: invalid domain for log function")
     return log(b, a)
 
-def exp(a, b):
-    return a ** b
