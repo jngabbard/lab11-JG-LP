@@ -15,7 +15,7 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
 
-def logarithm(a, b):
+def log(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Logarithm requires positive values.")
     return math.log(b, a)
