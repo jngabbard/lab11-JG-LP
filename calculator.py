@@ -47,4 +47,4 @@ def log(a, b):
     return log(b, a)
 
 def exp(a, b):
-    a ** b
+    return a ** b
