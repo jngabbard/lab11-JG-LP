@@ -15,15 +15,13 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero.")
     return a / b
 
-def log(a, b):
+def logarithm(a, b):
     if a <= 0 or b <= 0:
         raise ValueError("Logarithm requires positive values.")
     return math.log(b, a)
 
 def exp(a, b):
     return a ** b
-
-    return a / b
 
 
 def square_root(a):
@@ -37,7 +35,7 @@ def hypotenuse(a, b):
 def add(a, b): 
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
