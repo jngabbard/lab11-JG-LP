@@ -11,9 +11,20 @@ One function per operation, in order.
 """
 
 def div(a, b):
-    if b == 0:
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
+    return b / a
+
+def log(a, b):
+    if a <= 0 or b <= 0:
+        raise ValueError("Logarithm requires positive values.")
+    return math.log(b, a)
+
+def exp(a, b):
+    return a ** b
+
     return a / b
+
 
 def square_root(a):
     if a < 0:
