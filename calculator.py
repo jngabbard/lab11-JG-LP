@@ -13,7 +13,7 @@ One function per operation, in order.
 def div(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
-    return b / a
+    return a / b
 
 def log(a, b):
     if a <= 0 or b <= 0:
