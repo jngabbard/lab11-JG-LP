@@ -16,7 +16,7 @@ def div(a, b):
     return a / b
 
 def logarithm(a, b):
-    if a <= 0 or b <= 0:
+    if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Logarithm requires positive values.")
     return math.log(b, a)
 
@@ -27,7 +27,7 @@ def exp(a, b):
 def square_root(a):
     if a < 0:
         raise ValueError("Error: cannot calculate the square root of a negative number")
-    math.sqrt(a)
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
