@@ -1,3 +1,7 @@
+# https://github.com/jngabbard/lab11-JG-LP
+# Partner 1: Joshua Gabbard
+# Partner 2: Leslie Paulsen
+
 import math
 """
 calculator.py
