@@ -1,3 +1,7 @@
+# https://github.com/jngabbard/lab11-JG-LP
+# Partner 1: Joshua Gabbard
+# Partner 2: Leslie Paulsen
+
 import math
 """
 calculator.py
@@ -9,12 +13,13 @@ One function per operation, in order.
 def div(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
-
     return b / a
+
 def log(a, b):
     if a <= 0 or b <= 0:
         raise ValueError("Logarithm requires positive values.")
     return math.log(b, a)
+
 def exp(a, b):
     return a ** b
 
